@@ -9,7 +9,7 @@ Turn your Atari on.
 Press .25-1.999[...] seconds: Switch mode.
 Press +2 seconds: store current mode as default at cold boot.
 
-# Assebly tips
+# Assembly tips
 For least amount of wobbliness:
 1. Backside SMD stuff (TS5V330, ATtiny85 and 78l05). 
 2. Flip board over, solder all SMD.
