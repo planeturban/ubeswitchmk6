@@ -2,6 +2,10 @@
    Compiled with MicroCore: 980 bytes. (Not working..)
    Compiled for Attiny85: 956 bytes.
                           5244 bytes with debug.
+How to read this code:
+1. Don't. It's ugly.
+2. When "pin" is referred in code (or text) it's the Atari side of things. The ATtiny's pins are always referred to as PBX. 
+
 */
 
 
@@ -66,18 +70,19 @@ unsigned long pulse = 0;
 
 
 void setup() {
+// IDEA: check if a jumper is placed on the ISP header to enter some kind of other operations mode. 
+
+
 #if defined (DEBUG) && !defined(LEGACY)
   mySerial.begin(9600);
   mySerial.println("Boot");
 #endif
 
   PORTB |= bit(buttonPin); // Input pullup.
-//  DDRB |= bit(selectPin);
 
   state = EEPROM.read(0);
-//  DDRB = 1 << state;
-//  bitWrite(PORTB, selectPin, state);
-  bitWrite(DDRB, selectPin, state);
+// Instead of sending +5V to the Atari, let the pullup on pin4 handle the high part.
+  bitWrite(DDRB, selectPin, state); 
 
 
 #if defined (DEBUG) && !defined(LEGACY)
@@ -94,6 +99,7 @@ void setup() {
   mySerial.print("> ");
 
 /*
+// Really need to fix this part.
   while ( ! done ) {
     if ( mySerial.available() > 0 ) {
       data = mySerial.read();
@@ -188,7 +194,6 @@ void loop() {
     mySerial.print("Pulse: ");
     mySerial.println(pulse);
 #endif
-//    bitWrite(PORTB, selectPin, state);
     bitWrite(DDRB, selectPin, state);
 
   }
@@ -212,7 +217,6 @@ void loop() {
 #if defined (DEBUG) && !defined(LEGACY)
       mySerial.println("Switch");
 #endif
-//      PORTB ^= bit(selectPin);
       DDRB ^= bit(selectPin);
 
       _delay_ms(1000); // Wait for computer to reboot and get its shit togheter.
