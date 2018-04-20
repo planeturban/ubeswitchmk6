@@ -43,3 +43,4 @@ X1||F15HDVS|HDF15V|SUB-D|||unknown|unknown||||
 |Niether software or hardware switching works, boots in low res.| Did you remember to program your ATtiny?|
 |Software switch not working|Check soldering on ATtiny PB2 and V-sync on DIN|
 |Hardware switch slow.|Did you set fuses ("Burn bootloader" in Arduino IDE) before programming ATtiny? Processor is probably running in 1MHz.|
+|Won't hold saved state, switches to hires after cold boot.|Try upping bootWait, probably some timing issues at boot.|
