@@ -5,8 +5,11 @@
 
 # Manual
 Plug device into your Atari.
+
 Turn your Atari on.
+
 Press .25-1.999[...] seconds: Switch mode.
+
 Press +2 seconds: store current mode as default at cold boot.
 
 # Assembly tips
