@@ -25,7 +25,7 @@ Part|Value|Device|Package|Description|MF|MPN|OC_FARNELL|OC_NEWARK|PACKAGE|PROD_I
 ATARIOUT|DIN13T|DIN13T|DIN13|||||||||
 IC2|78L05F|78L05F|SOT89|POSITOIV-VOLTAGE REGULATORS||||||||
 JP1||PINHD-1X2|1X02|PIN HEADER||||||||
-S1||LY-A03-03||||||||COMP-12265||
+S2||K2-1823SA||||||||||
 TM1-3|100R|TRIMPOTTC33X|TC33X|SMT trimmer potentiometer part number TC33X||||||||
 TS5V330||V330|SOIC16N|||||||||
 U$1||PJ-320D||Audio jack - 3.5mm TRRS variety - two rings.||||||CONN-10676||
