@@ -3,6 +3,10 @@
 * 3.5mm A/V connector with volume control.
 * Automatic detection of resolution.
 
+# v1.4 update
+Added a AG-pad (AG after the guy who requested it) cut trace and connect the other pad to feed h-sync to PB2 instead of v-sync. Updates to firmware is needed.
+
+
 # Manual
 Plug device into your Atari.
 
