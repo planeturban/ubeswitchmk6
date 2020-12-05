@@ -6,6 +6,8 @@
 # v1.4 update
 Added a AG-pad (AG after the guy who requested it) cut trace and connect the other pad to feed h-sync to PB2 instead of v-sync. Updates to firmware is needed.
 
+Please be aware that the PCB is **unrouted** since different PCB houses has different tolerances and it **might** mess up the end product. 
+
 
 # Manual
 Plug device into your Atari.
