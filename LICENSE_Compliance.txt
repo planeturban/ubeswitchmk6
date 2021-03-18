@@ -1,0 +1,29 @@
+License Compliance Records:
+
+
+Date: 01/19/2021
+
+GitHub User: JoeFloyd-on-Github
+Number of licensed items sold: 10
+Donation Requirement under license: 20 Euro
+Currency of donation: US Dollars
+Currency conversion rate on date of license event: $1.21 / Euro
+Total Donation: $24.19
+
+Notes:  Dontation was rounded up to $25 and doubled to $50 in thanks to Urban Jonsson for making his project available on Github
+        Donation was made in the amount of $25 to St. Jude Children's Hospital https://www.stjude.org
+        Donation was made in the amount of $25 to the Electronic Frontier Foundation https://www.eff.org/
+
+
+Date: 03/18/2021
+
+GitHub User: JoeFloyd-on-Github
+Number of licensed items sold: 10
+Donation Requirement under license: 20 Euro
+Currency of donation: US Dollars
+Currency conversion rate on date of license event: $1.19 / Euro
+Total Donation: $23.80
+
+Notes:  Dontation was rounded up to $25 and doubled to $50 in thanks to Urban Jonsson for making his project available on Github
+        Donation was made in the amount of $25 to St. Jude Children's Hospital https://www.stjude.org
+        Donation was made in the amount of $25 to the Electronic Frontier Foundation https://www.eff.org/
